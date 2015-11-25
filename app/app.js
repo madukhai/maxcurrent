@@ -6,10 +6,12 @@ $(document).ready(function(){
 	$('header').css("height",height);
 
 	var img_height = $('.clearfix div img').height();
-	$('.clearfix div').css({
-		
+	$('.clearfix div').css({	
 		height: img_height
 	});
+
+	$('.modal').css('height',height);
+	$('.modal-body').css('height',height);
 });
 
 
@@ -26,6 +28,8 @@ $(window).resize(function() {
 		"width": "50%",
 		"height": img_height
 	})
+	$('.modal').css('height',height);
+	$('.modal-body').css('height',height);
 
 });
 
