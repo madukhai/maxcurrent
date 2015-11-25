@@ -2,6 +2,20 @@
     font-family: 'Merriweather'; 
     src: url('https://www.google.com/fonts#UsePlace:use/Collection:Merriweather');
 }
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
 body,div,header,h1,h2,h3{
 	margin: 0;
 }
@@ -9,7 +23,7 @@ body,div,header,h1,h2,h3{
 body{
 	font-family: 'Merriweather';	
 	color:white;
-	font-size:1 vm;
+	font-size: 1vm;
 }
 
 header{
@@ -26,15 +40,44 @@ header .background{
 	height: auto;
    	width: 100%;
 }
+header p{
+	font-size: 2em;
+	font-weight: lighter;
+}
 
 h1{
 	font-size: 5vw;
 	
 }
 header .logo{
-	width: 15vw;
-	height: 15vw;
+	width: 15em;
+	height: 15em;
 }
+
+.talent img{
+	width: 5em;
+	height: 5em;
+}
+footer .logo img{
+	width: 3em;
+	height: 3em;
+}
+
+.clearfix div{
+	width: 50%;
+	float: left;
+}
+
+.clearfix div img{
+	width: 100%;
+}
+.content{
+	background-color: black;
+	padding: 10em 7.5em;
+}
+
+
+
 .dropdown{
 	position: absolute;
 	top: 2em;
@@ -44,10 +87,12 @@ header .logo{
 
 .red{
 	background-color: red;
-	
+	padding: 2em;
 	text-align: center;
 }
-
+.red h2, .red p, .red img{
+	margin: 1em 0.5em; 
+}
 
 
 .underline{
