@@ -31,7 +31,12 @@ header{
 	padding: 7.5em 15em;
 
 }
-
+header .btn{
+	background-color: red;
+	width: 10em;
+	height: 3em;
+	
+}
 header .background{
 	position: absolute;
 	top:0;
@@ -46,8 +51,7 @@ header p{
 }
 
 h1{
-	font-size: 5vw;
-	
+	font-size: 5vw;	
 }
 header .logo{
 	width: 15em;
