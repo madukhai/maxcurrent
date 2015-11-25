@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Merriweather'; 
+    src: url('https://www.google.com/fonts#UsePlace:use/Collection:Merriweather');
+}
+body div{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Merriweather';	
+}
+
+header{
+
+}
+
+.dropdown{
+	position: absolute;
+	top: 2em;
+	right:2em;
+	background-color: rgba(0,0,0,0);
+}
+
+.underline{
+	 text-decoration: underline;
+}
+
+
+
+footer p{
+	text-align: center;
+}
