@@ -86,9 +86,15 @@ footer .logo img{
 	position: absolute;
 	top: 2em;
 	right:2em;
-	background-color: rgba(0,0,0,0);
 }
 
+.dropdown button{
+	background-color: rgba(0,0,0,0);
+}
+.dropdown ul{
+	background-color: red;
+	font-size: 0.5em;
+} 
 .red{
 	background-color: red;
 	padding: 2em;

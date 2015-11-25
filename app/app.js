@@ -10,8 +10,6 @@ $(document).ready(function(){
 		
 		height: img_height
 	})
-
-
 });
 
 
@@ -31,3 +29,7 @@ $(window).resize(function() {
 
 });
 
+$('.dropdown .btn').on('click',function(){
+	var height = $('header .background img').height();
+	$('.dropdown ul').css('height',height);
+})
