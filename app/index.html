@@ -14,19 +14,33 @@
 	<body >	
 		<header>
 			<div class="dropdown">
-			  	<button class='btn' id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			    	MENU
-			    <span class="glyphicon glyphicon-align-justify"></span>
-			  	</button>
-			  	<ul class="dropdown-menu" aria-labelledby="dLabel">
-					<p>About</p>
-					<p>Books</p>
-					<p>Drinks</p>
-					<p>Events</p>
-					<p>Contact</p>			 	 
-				</ul>
+			  	<button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">
+			  		MENU
+			   		<span class="glyphicon glyphicon-align-justify"></span>
+				</button>
+
+			<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  	<div class="modal-dialog" role="document">
+				    	<div class="modal-content">
+					      	<div class="modal-header">
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					      	</div>
+				      		<div class="modal-body">
+				        		<a>About</a><br>
+				        		<a>Books</a><br>
+				        		<a>Drinks</a><br>
+				        		<a>Events</a><br>
+				        		<a>Contact</a><br>
+				      		</div>
+				    	</div>
+				  	</div>
+				</div>
+					
 			</div>
+				<!-- Button trigger modal -->
 			
+
 			<div>
 				<div class='logo'>
 					<img src='imgs/Logo/LibraryCafeLogo.svg' />

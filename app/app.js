@@ -9,7 +9,7 @@ $(document).ready(function(){
 	$('.clearfix div').css({
 		
 		height: img_height
-	})
+	});
 });
 
 
@@ -29,7 +29,9 @@ $(window).resize(function() {
 
 });
 
-$('.dropdown .btn').on('click',function(){
-	var height = $('header .background img').height();
-	$('.dropdown ul').css('height',height);
+
+
+$('#myModal').on('shown.bs.modal', function () {
+
 })
+
